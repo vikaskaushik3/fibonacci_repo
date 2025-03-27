@@ -2,7 +2,7 @@ pipeline {
         agent any
         parameters {
             choice (name: 'Number',
-                    choices: : [10,20,30,40,50,60,70,80,90],
+                    choices: [10,20,30,40,50,60,70,80,90],
                     description: 'Select the value for F(n) for the fibonacci sequence')
         }
 
